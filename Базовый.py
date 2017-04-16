@@ -1,8 +1,6 @@
-A=1
-B=0
-C=0
-print((A or (not A) and B) or C)
-print((not A) or A and(B or C))
-print((A or B and(not C))and C)
-
-
+Z=int(input("введите z="))
+K=Z/1024
+M=K/1024
+G=M/1024
+T=G/1024
+print("килобайты=", K, "мегабайты=", M,"гигабайты=", G,"терабайты=", T)

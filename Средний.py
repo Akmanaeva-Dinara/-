@@ -1,9 +1,8 @@
-A=int(input("a="))
-B=int(input("b="))
-C=int(input("c="))
-if ((A%2==0) or (B%2==0)):
-	print(True)
-else: print(False)
-if ((A%3==0) and(B%3==0) and(C%3==0)):
-	print(True)
-else: print(False)
+import math 
+x,b=3.5,0.4
+a=math.log(x)
+c=(a**2)+math.sqrt(b*x)
+y=math.exp(2*x)+9**c
+print("a =", a)
+print("c =", c)
+print("y =", y)
