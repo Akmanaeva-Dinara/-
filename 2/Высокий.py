@@ -1,14 +1,4 @@
-import math
-a=float(input("введите а, не равное 0= "))
-b=float(input("введите b= "))
-c=float(input("введите c= "))
-d = b**2 - 4*a*c
-if d> 0:
-	x1 = (-b + math.sqrt(d))/(2*a)
-	x2 = (-b - math.sqrt(d))/(2*a)
-	print("x1 =",x1, "x2 =", x2)
-elif d == 0:
-	x = -b/(2*a)
-	print("x =", x)
+if not(( y>=-x-1 ) and ( y>=x-1 ) and ( y<=x+1 ) and (y<=1-x )):
+	print("попадает в область")
 else:
-	print("Корней нет")
+	print("не попадает в область")
